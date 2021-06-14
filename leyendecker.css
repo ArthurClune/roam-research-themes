@@ -345,119 +345,13 @@ span.rm-page-ref[data-tag="Tweet"], span[data-link-title^="Tweet"] .rm-page-ref 
   line-height: 2em;
   font-weight: 500;
 }
-span.rm-page-ref[data-tag="Literature Notes"], span[data-link-title^="Literature Notes"] .rm-page-ref {
-  background: #9769ff !important;
-  color: white !important;
-  padding: 3px 7px;
-  font-weight: 500;
-  line-height: 2em;
-}
-span.rm-page-ref[data-tag="Evergreens"], span[data-link-title^="Evergreens"] .rm-page-ref {
-  background: #0dbac6 !important;
-  color: #fff !important;
-  padding: 3px 8px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Seedling"], span[data-link-title^="Seedling"] .rm-page-ref {
-  color: #0dbac6 !important;
-  padding: 2px;
-  font-weight: 600;
-  line-height: 1.4em;
-  font-size: 0.7em;
-  vertical-align: 10%;
-  opacity: 80%;
-}
-span.rm-page-ref[data-tag="Idea Bank"], span[data-link-title^="Idea Bank"] .rm-page-ref {
-  color: #fcb815 !important;
-  padding: 3px 4px;
-  font-weight: 700;
-  line-height: 1.4em;
-}
-span.rm-page-ref[data-tag="Idea Bank"]:before {
-  content:"✦ ";
-}
-span.rm-page-ref[data-tag="Illustrated Notes"], span[data-link-title^="Illustrated Notes"] .rm-page-ref {
-  color: #7172fc;
-  padding: 3px 4px;
-  font-weight: 700;
-  line-height: 1.4em;
-}
-span.rm-page-ref[data-tag="Garden Notes"], span[data-link-title^="Garden Notes"] .rm-page-ref {
-  color: #9dbc13;
-  padding: 3px 4px;
-  font-weight: 700;
-  line-height: 1.4em;
-}
-span.rm-page-ref[data-tag="Video Tutorial"] {
-  color: #db3b8d;
-  padding: 3px 4px;
-  line-height: 1.4em;
-  font-weight: 700;
-}
-span.rm-page-ref[data-tag="Essay"], span[data-link-title^="Essay"] .rm-page-ref {
-  background: #adcb2a;
-  color: #fff;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Livestream"], span[data-link-title^="Livestream"] .rm-page-ref {
-  color: #b979cf;
-  padding: 3px 4px;
-  line-height: 1.4em;
-  font-weight: 700;
-}
-span.rm-page-ref[data-tag="Talk"], span[data-link-title^="Talk"] .rm-page-ref {
-  background: #7172fc;
-  color: #fff;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Waiting"], span[data-link-title^="Waiting"] .rm-page-ref {
-  background: #f9c866;
-  color: #fff;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Researching"], span[data-link-title^="Researching"] .rm-page-ref {
-  background: #ff9d66 !important;
-  color: #fff;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Synthesising"], span[data-link-title^="Synthesising"] .rm-page-ref {
-  background: #fc766f !important;
-  color: #fff !important;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
-span.rm-page-ref[data-tag="Alive"], span[data-link-title^="Alive"] .rm-page-ref {
-  background: #ee5f85 !important;
-  color: #fff !important;
-  padding: 3px 7px;
-  line-height: 2em;
-  font-weight: 500;
-}
 span[data-link-title^="Book/"] .rm-page-ref {
   color: #119bf0 !important;
   font-weight: 600;
 }
-span[data-link-title^="Evergreen/"] .rm-page-ref {
-  color: #00acc0 !important;
-  font-weight: 600;
-}
-span[data-link-title^="➽"] .rm-page-ref {
+span[data-link-title^="Paper/*"] .rm-page-ref {
   color: #35b2d4 !important;
   font-weight: 700;
-}
-span[data-link-title^="Video/"] .rm-page-ref {
-  color: #119bf0 !important;
-  font-weight: 600;
 }
 span[data-link-title^="Project/"] .rm-page-ref {
   color: #5135d4 !important;
@@ -474,15 +368,6 @@ span[data-link-title^="Article/"] .rm-page-ref {
 span[data-link-title^="Course/"] .rm-page-ref {
   color: #5391f8 !important;
   font-weight: 600;
-}
-span[data-link-title^="Idea/"] .rm-page-ref {
-  color: #fcb815 !important;
-  padding: 3px 4px;
-  font-weight: 700;
-  line-height: 1.4em;
-}
-span[data-link-title^="Idea/"] .rm-page-ref::before {
-  content:"✦ ";
 }
 
 
