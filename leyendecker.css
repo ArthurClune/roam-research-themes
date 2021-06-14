@@ -1,15 +1,7 @@
-/*  Make sure you have the fonts Lato, Open Sans, and IBM Plex installed locally on your machine.
-They're free to download from Google:
-https://fonts.google.com/specimen/Lato
-https://fonts.google.com/specimen/Open+Sans
-https://fonts.google.com/featured/Plex
-*/
-
-
  :root {
-    --header-font:"Lato", sans-serif;
-    --body-font:"Open Sans", sans-serif;
-    --code-font:"IBM Plex", monospace;
+    --header-font:"TrebuchetMS-Bold", sans-serif;
+    --body-font:"Damascus", sans-serif;
+    --code-font:"Courier", monospace;
     --font-size: 0.95rem;
     --bg-color: #F8F9FB;
     --page-color: rgba(255, 255, 255, 0.95);
