@@ -51,6 +51,16 @@ body, #app {
   transition: padding-left 0.15s ease-out;
 }
 
+.roam-sidebar-container {
+  line-height: 1.5em;
+}
+
+.rm-article-wrapper.rm-spacing--small {
+    padding-left: calc((100% - 1000px) / 2);
+    padding-right: calc((100% - 1000px) / 2);
+    transform: all ease-in 300ms;
+}
+
 .block-highlight-blue {
 background-color: var(--color-primary-highlight) !important;
 z-index: 99;
