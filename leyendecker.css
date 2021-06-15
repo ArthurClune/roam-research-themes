@@ -1,7 +1,8 @@
+
  :root {
-    --header-font:"TrebuchetMS-Bold", sans-serif;
+/*    --header-font:"Verdana-Bold", sans-serif;
     --body-font:"Damascus", sans-serif;
-    --code-font:"Courier", monospace;
+    --code-font:"Courier", monospace; */
     --font-size: 0.95rem;
     --bg-color: #F8F9FB;
     --page-color: rgba(255, 255, 255, 0.95);
@@ -23,6 +24,7 @@ body, #app {
   padding-right: 10px !important;
   padding-left: 20px !important;
 }
+
 .roam-article > div {
   padding: 30px 50px 50px 50px;
   background: var(--page-color);
@@ -37,7 +39,7 @@ body, #app {
   height: 100% !important;
   width: auto !important;
   position: relative !important;
-  padding-left: 50px;
+  /* padding-left: 30px; */
 }
 .roam-main {
   width: unset !important;
@@ -89,11 +91,12 @@ div, textarea {
 /* Code Syntax */
 code {
   font-family: var(--code-font);
-  background: #F0F4F8;
+/*  background: #F0F4F8; */
+  background: #ebebeb;
   color: var(--text-color);
   border: none;
   padding: 4px 6px;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 
 /* Queries */
@@ -129,7 +132,7 @@ code {
     background-color: white;
 }
 div.flex-v-box.starred-pages-wrapper > div.flex-h-box > span {
-  font-size: 14px;
+  font-size: 12px;
   opacity: 80%;
   letter-spacing: 0.04em;
 }
@@ -254,16 +257,17 @@ box-sizing: content-box;
 
 /* Headings */
 .rm-level1 div, .rm-level1 textarea {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .rm-level2 div, .rm-level2 textarea {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 .rm-level3 div, .rm-level3 textarea {
   color: var(--light-text-color);
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 a {
@@ -357,8 +361,8 @@ span[data-link-title^="Article/"] .rm-page-ref {
   color: #119bf0 !important;
   font-weight: 600;
 }
-span[data-link-title^="Course/"] .rm-page-ref {
-  color: #5391f8 !important;
+span[data-link-title^="AWS/"] .rm-page-ref {
+  color: #eb346b !important;
   font-weight: 600;
 }
 
@@ -382,13 +386,13 @@ span[data-link-title^="Course/"] .rm-page-ref {
    color: #FFC585;
 }
 
-.roam-block-container[data-page-links*='Questions'] {
+.roam-block-container[data-page-links*='Question'] {
   background: #ECF5FB;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
-span.rm-page-ref[data-tag="Questions"], span[data-link-title^="Questions"] .rm-page-ref {
+span.rm-page-ref[data-tag="Question"], span[data-link-title^="Question"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #91B9E5;
