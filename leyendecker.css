@@ -26,7 +26,7 @@ body, #app {
 }
 
 .roam-article > div {
-  padding: 30px 50px 50px 50px;
+  padding: 30px 50px 50px 50px; 
   background: var(--page-color);
   box-shadow: var(--page-shadow);
   border: 1px solid #e5ecf1;
@@ -355,7 +355,7 @@ span[data-link-title^="Book/"] .rm-page-ref {
   color: #119bf0 !important;
   font-weight: 600;
 }
-span[data-link-title^="Paper/*"] .rm-page-ref {
+span[data-link-title^="Paper/"] .rm-page-ref {
   color: #35b2d4 !important;
   font-weight: 700;
 }
@@ -384,65 +384,66 @@ span[data-link-title^="AWS/"] .rm-page-ref {
 /* -------------------------- */
 
 
-.roam-block-container[data-page-links*='Claim'] {
+.roam-block-container[data-page-links*='claim'] {
   background: #FDF8EE;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
- span.rm-page-ref[data-tag="Claim"], span[data-link-title^="Claim"] .rm-page-ref {
+ span.rm-page-ref[data-tag="claim"], span[data-link-title^="claim"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #FFC585;
 }
 
-.roam-block-container[data-page-links*='Question'] {
+.roam-block-container[data-page-links*='question'] {
   background: #ECF5FB;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
-span.rm-page-ref[data-tag="Question"], span[data-link-title^="Question"] .rm-page-ref {
+span.rm-page-ref[data-tag="question"], span[data-link-title^="question"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #91B9E5;
 }
 
-.roam-block-container[data-page-links*='Response'] {
+.roam-block-container[data-page-links*='response'] {
   background: #F3F1FD;
   margin-top: 2px;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
- span.rm-page-ref[data-tag="Response"], span[data-link-title^="Response"] .rm-page-ref {
+ span.rm-page-ref[data-tag="response"], span[data-link-title^="response"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #AFA0E1;
 }
 
-.roam-block-container[data-page-links*='Evidence'] {
+.roam-block-container[data-page-links*='evidence'] {
   background: #FEEDED;
   margin-top: 2px;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
- span.rm-page-ref[data-tag="Evidence"], span[data-link-title^="Evidence"] .rm-page-ref {
+ span.rm-page-ref[data-tag="evidence"], span[data-link-title^="evidence"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #F99292;
 }
 
-.roam-block-container[data-page-links*='DirectQuote'] {
+.roam-block-container[data-page-links*='directquote'] {
   background: #F4F6D8;
   margin-top: 2px;
   border-radius: 6px;
   padding: 0.6em 0.4em 0.4em 0em;
 }
 
- span.rm-page-ref[data-tag="DirectQuote"], span[data-link-title^="DirectQuote"] .rm-page-ref {
+ span.rm-page-ref[data-tag="directquote"], span[data-link-title^="directquote"] .rm-page-ref {
    opacity: 70%;
    font-size: 80%;
    color: #A5C16A;
 }
+
